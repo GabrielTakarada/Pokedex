@@ -1,0 +1,32 @@
+.pokemon-card:hover {
+  transform: rotateY(10deg); /* Adicione uma rotação em Y no hover */
+  transform: translateZ(60px);
+  perspective: 1000px; /* Defina a perspectiva tridimensional */
+  transform-style: preserve-3d;
+}
+
+.image-container:hover {
+  perspective: 1000px; /* Defina a perspectiva tridimensional */
+  transform-style: preserve-3d;
+  transform: translateZ(280px); /* Aplique a transformação translateZ aqui */
+}
+
+.name:hover {
+  perspective: 1000px; /* Defina a perspectiva tridimensional */
+  transform-style: preserve-3d;
+  transform: translateZ(130px);
+}
+
+.type:hover {
+  perspective: 1000px; /* Defina a perspectiva tridimensional */
+  transform-style: preserve-3d;
+  transform: translateZ(120px);
+}
+
+.div:hover {
+  transform: translateZ(140px);
+}
+
+.divider {
+  opacity: 0%;
+}
